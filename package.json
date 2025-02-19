@@ -1,0 +1,17 @@
+{
+  "name": "react_native",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "react-native": "^0.78.0",
+    "react-native-reanimated": "^3.16.7",
+    "react-native-svg": "^15.11.1"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^15.1.3"
+  }
+}
