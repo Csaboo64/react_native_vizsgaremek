@@ -11,7 +11,7 @@ const Wheel = () => {
   const anglePerSegment = 360 / numberOfSegments;
 
   const spinWheel = () => {
-    const randomRotation = Math.floor(Math.random() * 360) + 360 * 5; // 5 teljes fordulat + véletlenszerű szög
+    const randomRotation = Math.floor(Math.random() * 360) + 360 * 5; 
     rotation.value = withSpring(randomRotation, {
       damping: 10,
       stiffness: 100,
